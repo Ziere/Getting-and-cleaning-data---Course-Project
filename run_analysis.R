@@ -3,7 +3,7 @@ packages <- c("data.table", "tidyr", "dplyr", "reshape")
 sapply(packages, require, character.only = TRUE, quietly = TRUE)
 
 ## Set the path to current directory
-setwd("C:/Users/Xhaos/Desktop/R/R - Tareas/Getting-and-cleaning-data---Course-Project")
+#setwd("C:/Users/Xhaos/Desktop/R/R - Tareas/Getting-and-cleaning-data---Course-Project")
 path <- getwd()
 
 dataPath <- file.path(path, "UCI HAR Dataset")
