@@ -77,4 +77,4 @@ setkeyv(dt2,names(dt2)[-length(names(dt2))])
 ## creating a new var dtTidy with the tidy data set with the means for each subject and activity
 dtTidy <- dt2[, list(count = .N, average = mean(value)), by = key(dt2)]
 
-write.table(dtTidy,"tidy_data_set_mean.txt", row.name=FALSE)
+# write.table(dtTidy,"tidy_data_set_mean.txt", row.name=FALSE)

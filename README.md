@@ -1,7 +1,7 @@
 Getting and cleaning data - Course project
 ==========================================
 
-*General information about the project
+General information about the project
 
 >This repo is for the the course project of Getting and cleaning data of Coursera
 
@@ -24,7 +24,7 @@ Getting and cleaning data - Course project
 
 >Good luck!
 
-*Script Explanation
+Script Explanation
 
 >1. After all we load the packages the will use
 >2. Create a variable called dataPath with the path of the data, in this case the folder is "UCI HAR Dataset"
