@@ -27,10 +27,11 @@ Classes 'data.table' and 'data.frame':    11880 obs. of  11 variables:
 Variable list and descriptions from dtTidy
 ------------------------------------------
 
+```
 Variable name     Description
 -------------     -----------
 subject_Number    ID the subject who performed the activity for each window sample. Its range is from 1 to 30.
-activity          Activity name
+activity          Activity number
 domain            Time signal or frequency signal (Time or Freq)
 instrument        Measuring instrument (Accelerometer or Gyroscope)
 acceleration      Acceleration signal (Body or Gravity)
@@ -40,3 +41,4 @@ axis              3-axial signals in the X, Y and Z directions (X, Y, or Z)
 variable          Indicate if the variable is mean of standard desviation (SD)
 count             Count the number of data in the same group to calculate the average
 average           Average of each variable for each activity and each subject
+```
